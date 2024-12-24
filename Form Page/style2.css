@@ -6,22 +6,6 @@ body{
   align-items: center;
 }
 
-/* .main{
-    border: 2px solid red;
-    display: flex;
-    justify-content: center;
-
-}
-
-.box{
-  border: 1px solid purple;
-  height: 100vh;
-  width: 350px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-} */
 
 .main {
   display: flex;
@@ -29,55 +13,55 @@ body{
   align-items: center;
   height: 100vh;
   width: 350px;
-  background: linear-gradient(135deg, #ff0080, #6a0dad); /* Gradient background */
+  background: linear-gradient(135deg, #ff0080, #6a0dad); 
 }
 
-/* Box Container */
+
 .box {
-  border: none; /* No border for cleaner look */
+  border: none; 
   height: auto;
   width: 280px;
   padding: 20px;
-  border-radius: 15px; /* Rounded corners */
-  background: white; /* Form background color */
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border-radius: 15px; 
+  background: white; 
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 15px; /* Spacing between elements */
+  gap: 15px; 
 }
 
-/* Form Title */
+
 .form-title {
   font-family: Arial, sans-serif;
   font-size: 24px;
-  color: #6a0dad; /* Matches the theme */
+  color: #6a0dad; 
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* Input Fields */
+
 input[type="text"] {
   width: 80%;
   padding: 10px 15px;
   font-size: 16px;
-  border: 1px solid #ccc; /* Subtle border */
-  border-radius: 5px; /* Rounded corners */
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
   outline: none;
-  transition: all 0.3s ease; /* Smooth focus effect */
-  background-color: #f9f9f9; /* Light background for inputs */
+  transition: all 0.3s ease; 
+  background-color: #f9f9f9; 
 }
 
 input[type="text"]:focus {
-  border-color: #6a0dad; /* Highlight border on focus */
-  box-shadow: 0 0 5px rgba(106, 13, 173, 0.5); /* Glow effect */
+  border-color: #6a0dad; 
+  box-shadow: 0 0 5px rgba(106, 13, 173, 0.5);
 }
 
-/* Submit Button */
+
 button {
-  background: linear-gradient(135deg, #6a0dad, #ff0080); /* Gradient button */
-  color: white; /* Text color */
+  background: linear-gradient(135deg, #6a0dad, #ff0080); 
+  color: white; 
   border: none;
   padding: 10px 20px;
   border-radius: 25px;
@@ -88,11 +72,11 @@ button {
 }
 
 button:hover {
-  transform: scale(1.05); /* Slight zoom on hover */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Elevated shadow */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
 button:active {
-  transform: scale(0.95); /* Slight press effect */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Reduced shadow */
+  transform: scale(0.95); 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /
 }
