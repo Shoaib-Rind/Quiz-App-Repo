@@ -1,77 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz App</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
-        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-
-    <section class="sec1" id="sec1">
-
-        <div class="start-box">
-
-            <nav>
-                <h2>Quiz</h2>
-            </nav>
-
-            <div class="box">
-                <h2>Would you like to begin a test based on basic "HTML CSS & JAVASCRIPT"?</h2>
-            </div>
-
-            <div class="startBtn" id="start">
-                <button class="strBtn" onclick="questionShow(event), startTimer()">Start</button>
-                <button class="qitBtn" onclick="quitfunc(event)">Quit</button>
-            </div>
-
-        </div>
-    </section>
-
-    <section class="sec2" id="sec2">
-
-        <nav>
-            <h2><span id="ind">0</span>/30</h2>
-            <h2>Quiz</h2>
-            <h2 id="secTime">$$</h2>
-        </nav>
-
-        <div class="container">
-
-            <div class="main-Box">
-
-                <div class="head">
-                    <h2 class="h2" id="h2"></h2>
-                </div>
-
-                <div class="opt" id="opt"></div>
-
-            </div>
-        </div>
-
-    </section>
-
-    <section class="sec3" id="sec3">
-
-        <div class="sec3-Container">
-            <div class="img">
-                <img src="/images/completed.webp">
-            </div>
-            <h3>You Answer <span id="sec3Score"></span> out of 30</h3>
-            <h3>You Got <span id="percentage"></span>%</h3>
-            <button class="qitBtn" onclick="quitfunc(event)"><i class="fa-solid fa-house"></i></button>
-        </div>
-    </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Forms</title>
+    
+  </head>
+  <body>
+    <div class="main">
+      <div class="box">
+        <div class="title">let's Start <br> <i>QUIZZ !!</i></div>
+        <button onclick="moveTo()">Tap to Start</button>
+    </div>
+    
+      </div>
+    
 
 
-
-    <script src="script.js"></script>
+  
+  <script>
+    function moveTo(){
+      window.location.href = "./form page/index2.html";
+  }
+  </script>
 </body>
-
 </html>
