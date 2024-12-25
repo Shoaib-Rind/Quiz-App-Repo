@@ -11,8 +11,8 @@
     <div class="main">
       <div class="box">
         <h2 class="form-title">Contact Form</h2>
-        <input type="text" placeholder="User Name" required>
-        <input type="text" placeholder="Contact Number" required>
+        <input type="text" placeholder="User Name" id="userName" required>
+        <input type="text" placeholder="Contact Number" id="contactNum" required>
         <button onclick="moveToQuizz()">Submit</button>
       </div>
     </div>
@@ -23,6 +23,15 @@
   
   <script>
     function moveToQuizz(){
+
+      let userName = document.getElementById("userName").value;
+      let contactNum = document.getElementById("contactNum").value;
+      console.log(userName)
+
+      if(userName === "" || contactNum === ""){
+        alert("Please Enter empty field");
+        return;
+      }
       window.location.href = "Quizz/index.html";
   }
   </script>
